@@ -25,6 +25,10 @@ function IndividualStories({ heroData, seoData }) {
 <meta property="twitter:title" content={seoData.title} />
 <meta property="twitter:description" content={seoData.description} />
 <meta property="twitter:image" content={heroData.img} />
+<meta property="twitter:image:type" content="image/jpeg" />
+        <meta property="twitter:image:width" content="400" />
+        <meta property="twitter:image:height" content="300" />
+        
       </Head>
       <div className="a4-header-img" style={{ width: imgWidth }}>
         <img src={heroData.img} alt="" height={500} />
