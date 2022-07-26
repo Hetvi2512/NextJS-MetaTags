@@ -1,24 +1,27 @@
 import Head from "next/head";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
-function IndividualStories({ heroData,seoData }) {
-  const router = useRouter()
-console.log("heroData", heroData)
- 
-  var imgWidth = '30%'
+function IndividualStories({ heroData, seoData }) {
+  const router = useRouter();
+  console.log("heroData", heroData);
+
+  var imgWidth = "30%";
 
   if (router.isFallback) {
-   return <h1>Data is loading</h1>;
+    return <h1>Data is loading</h1>;
   }
   return (
     <>
       <Head>
         <title>{seoData.title}</title>
         <meta name="description" content={seoData.description} />
-        <meta name="og:image" content={heroData.img} />
+        <meta  property="og:image" content={heroData.img} />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
       </Head>
       <div className="a4-header-img" style={{ width: imgWidth }}>
-        <img src={heroData.img} alt="" height={500}/>
+        <img src={heroData.img} alt="" height={500} />
       </div>
       <div className="a4-header-con">
         <div className="Biotif-Book a4-header-cat ">{heroData.cat}</div>
@@ -66,14 +69,14 @@ export async function getStaticProps(context) {
     auth: individualStory["story"]["author-name"],
     imgCap: individualStory["story"]["hero-image-attribution"],
   };
-  const seoData ={
+  const seoData = {
     title: individualStory["story"]["seo"]["meta-title"],
-    description: individualStory["story"]["seo"]["meta-description"]
-  }
+    description: individualStory["story"]["seo"]["meta-description"],
+  };
   return {
     props: {
       heroData,
-      seoData
+      seoData,
     },
   };
 }
