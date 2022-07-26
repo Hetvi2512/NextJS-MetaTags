@@ -15,7 +15,10 @@ function IndividualStories({  heroData,seoData }) {
       <Head>
         <title>{seoData.title}</title>
         <meta name="description" content={seoData.description} />
-        <meta name="og:image" content={heroData.img} />
+        <meta  property="og:image" content={heroData.img} />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
       </Head>
       <div className="a4-header-img" style={{ width: imgWidth }}>
         <img src={heroData.img} alt="" height={500}/>

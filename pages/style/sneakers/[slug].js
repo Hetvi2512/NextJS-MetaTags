@@ -14,7 +14,7 @@ function IndividualStories({ heroData, seoData }) {
     <>
       <Head>
         <title>{seoData.title}</title>
-        <meta name="description" content={seoData.description} />
+        <meta  name="description" content={seoData.description} />
         <meta  property="og:image" content={heroData.img} />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="400" />
