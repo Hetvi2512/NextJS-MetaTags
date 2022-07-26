@@ -28,7 +28,7 @@ function IndividualStories({ heroData, seoData }) {
 <meta property="twitter:image:type" content="image/jpeg" />
         <meta property="twitter:image:width" content="400" />
         <meta property="twitter:image:height" content="300" />
-        
+        <Link rel="image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a"> </Link>
       </Head>
       <div className="a4-header-img" style={{ width: imgWidth }}>
         <img src={heroData.img} alt="" height={500} />
