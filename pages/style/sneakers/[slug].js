@@ -19,6 +19,12 @@ function IndividualStories({ heroData, seoData }) {
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+{/* <meta property="twitter:url" content={window.location.href}  */}
+<meta property="twitter:title" content={seoData.title} />
+<meta property="twitter:description" content={seoData.description} />
+<meta property="twitter:image" content={heroData.img} />
       </Head>
       <div className="a4-header-img" style={{ width: imgWidth }}>
         <img src={heroData.img} alt="" height={500} />
@@ -53,10 +59,12 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps(context) {
+  console.log("GENERATING/ REGENERATING PAGES ======================")
   const { params } = context;
   const response = await fetch(
     `http://theestablished.quintype.io/api/v1/stories-by-slug?slug=${params.slug}`
   );
+
   const individualStory = await response.json();
   const heroData = {
     img:
@@ -78,5 +86,6 @@ export async function getStaticProps(context) {
       heroData,
       seoData,
     },
+    revalidate: 50,
   };
 }

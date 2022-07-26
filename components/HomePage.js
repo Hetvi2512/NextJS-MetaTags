@@ -8,7 +8,7 @@ function HomePage({ resp }) {
         <div className={`common-main-${index + 1} d-flex  flex-column`} key={a.id}>
           <Link
           href={`/${a["story"]["slug"]}`}
-            
+          prefetch={false}
           >
             <div style={{ cursor: "pointer" }}>
               <img
@@ -19,6 +19,7 @@ function HomePage({ resp }) {
               />
               <Link
               href={ subCatPageUrl[a["story"]["sections"][0]["slug"]].url}
+              prefetch={false}
               >
                 <div className="Biotif-Book common-category">
                   {a["story"]["sections"][0]["name"].toUpperCase()}

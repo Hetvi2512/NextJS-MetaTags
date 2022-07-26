@@ -31,6 +31,6 @@ export async function getStaticProps() {
     props: {
       stories: homeDisplay,
     },
-    revalidate: 10,
+    revalidate: 50,
   };
 }
