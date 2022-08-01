@@ -1,0 +1,969 @@
+.App {
+  text-align: center;
+}
+body{
+  color: black !important ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.border {
+  border: 2px solid #ffffff !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.black-bg {
+  background-color: #020002;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.white-text {
+  color: #ffffff;
+}
+.black-text {
+  color: #020002;
+}
+
+/* @font-face {
+  font-family: "Biotif-Black-Italic";
+  src: url("../public/font/biotif/Biotif\ Black\ Italic.otf");
+}
+
+@font-face {
+  font-family: "Biotif-Black";
+  src: url("../public/font/biotif/Biotif\ Black.otf");
+}
+
+@font-face {
+  font-family: "Biotif-Bold-Italic";
+  src: url("../public/font/biotif/Biotif\ Bold\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-Bold";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ Bold.woff2");
+}
+
+/* @font-face {
+  font-family: "Biotif-Book-Italic";
+  src: url("../public/font/biotif/Biotif\ Book\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-Book";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ Book.woff2");
+}
+
+/* @font-face {
+  font-family: "Biotif-ExtraBold-Italic";
+  src: url("../public/font/biotif/Biotif\ Black.otf");
+}
+
+@font-face {
+  font-family: "Biotif-ExtraBold";
+  src: url("../public/font/biotif/Biotif\ ExtraBold.otf");
+} */
+
+/* @font-face {
+  font-family: "Biotif-Light-Italic";
+  src: url("../public/font/biotif/Biotif\ Light\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-Light";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ Light.woff2");
+}
+
+/* @font-face {
+  font-family: "Biotif-Medium-Italic";
+  src: url("../public/font/biotif/Biotif\ Medium\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-Medium";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ Medium.woff2");
+}
+
+/* @font-face {
+  font-family: "Biotif-Regular-Italic";
+  src: url("../public/font/biotif/Biotif\ Regular\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-Regular";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ Regular.woff2");
+}
+/*
+@font-face {
+  font-family: "Biotif-SemiBold-Italic";
+  src: url("../public/font/biotif/Biotif\ SemiBold\ Italic.otf");
+} */
+
+@font-face {
+  font-family: "Biotif-SemiBold";
+  font-display: block;
+  src: url("../public/font/biotif/Biotif\ SemiBold.woff2");
+}
+
+@font-face {
+  font-family: "InterstateCompressed-Bold";
+  font-display: block;
+  src: url("../public/font/interstate/InterstateCompressed-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Heldane_Text_Regular";
+  font-display: block;
+  src: url("../public/font/heldane/Heldane_Text_Regular.woff2");
+}
+/* @font-face {
+  font-family: "Heldane_Text_Bold";
+  src: url("../public/font/heldane/Heldane_Text_Bold.otf");
+} */
+/*
+@font-face {
+  font-family: "Heldane_Text_Regular_Italic";
+  src: url("../public/font/heldane/Heldane_Text_Regular_Italic.otf");
+} */
+@font-face {
+  font-family: "Heldane_Display_Regular";
+  font-display: block;
+  src: url("../public/font/heldane/Heldane_Display_Regular.woff2");
+}
+@font-face {
+  font-family: "Heldane_Display_Regular_Italic";
+  font-display: block;
+  src: url("../public/font/heldane/Heldane_Display_Regular_Italic.woff2");
+}
+@font-face {
+  font-family: "Heldane_Text_Medium_Italic";
+  font-display: block;
+  src: url("../public/font/heldane/Heldane_Text_Medium_Italic.woff2");
+}
+
+.Biotif-Light {
+  font-family: "Biotif-Light";
+}
+.Heldane_Text_Medium_Italic {
+  font-family: "Heldane_Text_Medium_Italic";
+}
+.Heldane_Display_Regular_Italic {
+  font-family: "Heldane_Display_Regular_Italic";
+}
+.HeldaneDisplay-Regular {
+  font-family: "Heldane_Display_Regular" !important;
+}
+.HeldaneDisplay-RegularItalic {
+  font-family: "Heldane_Text_Regular_Italic" !important;
+}
+.Heldane-Text-Regular {
+  font-family: "Heldane_Text_Regular" !important;
+}
+.Heldane-Text-Bold {
+  font-family: "Heldane_Text_Bold" !important;
+}
+
+
+.HeldaneDisplay-Regular {
+  font-family: "Heldane_Display_Regular" !important;
+}
+.InterstateCompressed-Bold {
+  font-family: "InterstateCompressed-Bold" !important;
+}
+.Biotif-Black-Italic {
+  font-family: "Biotif-Black-Italic" !important;
+}
+
+.Biotif-Black {
+  font-family: "Biotif-Black" !important;
+}
+.Biotif-Bold-Italic {
+  font-family: "Biotif-Bold-Italic" !important;
+}
+
+.Biotif-Bold {
+  font-family: "Biotif-Bold" !important;
+}
+
+.Biotif-Book-Italic {
+  font-family: "Biotif-Book-Italic" !important;
+}
+
+.Biotif-Book {
+  font-family: "Biotif-Book" !important;
+}
+
+.Biotif-ExtraBold-Italic {
+  font-family: "Biotif-ExtraBold-Italic" !important;
+}
+
+.Biotif-ExtraBold {
+  font-family: "Biotif-ExtraBold" !important;
+}
+
+.Biotif-Ligth-Italic {
+  font-family: "Biotif-Ligth-Italic" !important;
+}
+
+.Biotif-Ligth {
+  font-family: "Biotif-Ligth" !important;
+}
+
+.Biotif-Medium-Italic {
+  font-family: "Biotif-Medium-Italic" !important;
+}
+
+.Biotif-Medium {
+  font-family: "Biotif-Medium" !important;
+}
+
+.Biotif-Regular-Italic {
+  font-family: "Biotif-Regular-Italic" !important;
+}
+
+.Biotif-Regular {
+  font-family: "Biotif-Regular" !important;
+}
+
+.Biotif-SemiBold-Italic {
+  font-family: "Biotif-SemiBold-Italic" !important;
+}
+
+.Biotif-SemiBold {
+  font-family: "Biotif-SemiBold" !important;
+}
+
+.margin-new {
+  margin-bottom: -60px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-dropdown-trigger > .anticon.anticon-down,
+.ant-dropdown-link > .anticon.anticon-down,
+.ant-dropdown-button > .anticon.anticon-down {
+  font-size: 10px;
+  vertical-align: baseline;
+  display: none;
+}
+
+.ant-dropdown-link {
+  color: #fff !important;
+}
+
+.menuBar {
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+}
+.logo {
+  width: 150px;
+  float: left;
+}
+.logo a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+  text-transform: capitalize;
+}
+.menuCon {
+  width: calc(100% - 150px);
+  /* height: 25px; */
+}
+.menuCon2 {
+  width: calc(100% - 150px);
+  height: 25px;
+}
+.menuCon .ant-menu-item {
+  padding: 0px 5px;
+}
+.menuCon .ant-menu-submenu-title {
+  padding: 10px 20px;
+}
+.menuCon .ant-menu-item a,
+.menuCon .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+.menuCon .ant-menu-horizontal {
+  border-bottom: none;
+}
+.menuCon .leftMenu {
+  float: left;
+}
+.menuCon .rightMenu {
+  float: right;
+}
+.barsMenu {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+}
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1890ff;
+  position: relative;
+}
+.barsBtn:after,
+.barsBtn:before {
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 2px;
+  background: #1890ff;
+}
+.barsBtn:after {
+  top: auto;
+  bottom: -6px;
+}
+.ant-drawer-body {
+  padding: 0;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .barsMenu {
+    display: inline-block;
+  }
+  .leftMenu,
+  .rightMenu {
+    display: none;
+  }
+  .logo a {
+    margin-left: -20px;
+  }
+  .menuCon .ant-menu-item,
+  .menuCon .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+  .logo a {
+    padding: 10px 20px;
+  }
+}
+/* @media(max-width:480px){
+  .ant-drawer-content-wrapper{
+    width: 80%  !important;
+  }
+}
+
+@media(min-width:768px){
+  .ant-drawer-content-wrapper{
+    width: 50%  !important;
+  }
+} */
+
+.ant-drawer-content-wrapper {
+  width: 100% !important;
+}
+.ant-drawer-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #ff003d !important;
+  border-bottom: none !important;
+  border-radius: 2px 2px 0 0;
+}
+.ant-drawer-close {
+  color: white;
+}
+.ant-drawer-content {
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  background-color: #ff003d !important;
+  background-clip: padding-box;
+  border: 0;
+}
+.anticon > svg {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+  color: white;
+}
+.nav-options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+  .nav-options {
+    display: grid;
+    justify-content: flex-start;
+  }
+}
+
+/* .drawer-button-view{
+  position: absolute;
+    right: 1px;
+    top: 0px;
+} */
+/* @media(min-width:768px){
+  .drawer-button-view{
+    display: none;
+  }
+} */
+
+.parent-card > .ant-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  width: 90%;
+  margin-left: 5%;
+}
+.ant-card-body {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+}
+
+.ant-drawer-close {
+  position: absolute !important;
+  right: 0px !important;
+}
+.ant-tabs-ink-bar-animated {
+  left:50px;
+  width: 42%;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff003d !important;
+  text-shadow: 0 0 0.25px currentColor;
+  font-family: "Biotif-Bold";
+  font-size: 26px;
+  /* border-bottom: 1px solid red; */
+}
+.ant-tabs-tab {
+  font-family: "Biotif-Bold" !important;
+  font-size: 26px !important;
+  margin: 0 16px 0 16px !important;
+}
+.ant-tabs-tab-btn {
+  font-family: "Biotif-Bold" !important;
+}
+.ant-tabs-nav-wrap {
+  justify-content: center !important;
+  padding-right: 32px;
+}
+.ant-tabs-nav-more{
+  display: none;
+}
+.ant-tabs-ink-bar {
+  background-color: #ff003d !important;
+}
+.ant-tabs-bottom > .ant-tabs-nav:before,
+.ant-tabs-bottom > div > .ant-tabs-nav:before,
+.ant-tabs-top > .ant-tabs-nav:before,
+.ant-tabs-top > div > .ant-tabs-nav:before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-bottom: none !important;
+  content: "";
+}
+
+.text-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.the-footer-established {
+  position: relative;
+  bottom: 50px;
+  padding-left: 4%;
+  width: 50%;
+}
+.the-footer-established > img {
+  width: 100%;
+}
+.newsletter-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .ant-tabs-tab {
+    font-size: 20px !important;
+  }
+  .ant-tabs-tab-btn {
+    font-family: "Biotif-Bold" !important;
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .ant-tabs-tab {
+    font-size: 20px !important;
+  }
+  .ant-tabs-tab-btn {
+    font-family: "Biotif-Bold" !important;
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .ant-tabs-tab {
+    font-size: 20px !important;
+  }
+  .ant-tabs-tab-btn {
+    font-family: "Biotif-Bold" !important;
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1740px) {
+  .ant-tabs-tab {
+    font-size: 20px !important;
+  }
+  .ant-tabs-tab-btn {
+    font-family: "Biotif-Bold" !important;
+    font-size: 23px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .search-result-div {
+    font-size: 16px;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ff003d !important;
+    text-shadow: 0 0 0.25px currentColor;
+    font-family: "Biotif-Bold";
+    font-size: 10px;
+  }
+  .ant-tabs-tab {
+    font-family: "Biotif-Bold" !important;
+    font-size: 10px !important;
+    margin: 0 8px 0 8px !important;
+
+  }
+  .ant-tabs-tab-btn {
+    font-family: "Biotif-Bold" !important;
+    font-size: 12px !important;
+  }
+  .ant-tabs-nav-wrap {
+    justify-content: center !important;
+   padding-right: 16px;
+  }
+}
+@media (max-width: 970px) {
+  .text-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.grid-5 {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  padding-top: 0%;
+  padding-left: 0%;
+}
+.by-author {
+  color: #fff;
+  font-size: 20px;
+  /* font-style: italic; */
+}
+.by-date {
+  font-size: 20px;
+  /* font-style: italic; */
+  color: #fff;
+}
+.question {
+  font-size: 24px;
+  line-height: 28px;
+}
+.grid-6 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 5%;
+}
+.ant-tabs-tab:hover {
+  color: #ff003d !important;
+}
+.new-div-data-1 {
+  padding-top: 15%;
+  padding-left: 10%;
+}
+.new-div-data-2 {
+  padding-top: 50%;
+  padding-left: 10%;
+}
+.new-div-data-3 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+}
+
+.new-div-data-5 {
+  padding-top: 40%;
+  padding-left: 25%;
+}
+
+.read-more-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 3%;
+}
+.read-more-subc {
+  font-size: 20px;
+  color: #ff003d;
+  font-family: "Biotif-Book";
+}
+.read-more-desc {
+  font-size: 33px;
+  line-height: 33px;
+}
+.read-more-new1 {
+  font-size: 90px;
+  color: #ff003d;
+  text-decoration: 4px solid underline;
+  text-underline-position: from-font;
+  margin-bottom: 4%;
+  letter-spacing: -4px;
+}
+.result-title {
+  line-height: 21px;
+  font-size: 18px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-5 {
+    grid-template-columns: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .by-author {
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 3%;
+  }
+  .by-date {
+    font-size: 13px;
+    font-style: italic;
+    color: #fff;
+  }
+  .question {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .grid-6 {
+    grid-template-columns: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .new-div-data-1 {
+    padding-top: 2%;
+    padding-left: 0%;
+  }
+  .new-div-data-2 {
+    padding-top: 2%;
+    padding-left: 0%;
+  }
+  .new-div-data-3 {
+    padding-top: 2%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+  }
+
+  .new-div-data-5 {
+    padding-top: 2%;
+    padding-left: 0%;
+  }
+  .result-title {
+    font-size: 10px;
+  }
+  .read-more-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 3%;
+  }
+  .read-more-subc {
+    font-size: 10px;
+    color: #ff003d;
+    font-family: "Biotif-Book";
+  }
+  .read-more-desc {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .read-more-new1 {
+    font-size: 60px;
+    color: #ff003d;
+    text-decoration: 4px solid underline;
+    text-underline-position: from-font;
+    margin-bottom: 4%;
+    letter-spacing: -4px;
+  }
+}
+#new-image {
+  transition: 1s;
+}
+#new-image-2 {
+  transition: 1s;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid-5 {
+    grid-template-columns: 30% 40%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .the-footer-established {
+    width: 43%;
+  }
+  .the-footer-established > img {
+    width: 100%;
+  }
+  .by-author {
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 3%;
+  }
+  .by-date {
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+  }
+  .question {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* .grid-6{
+    grid-template-columns: auto;
+    padding-left: 5%;
+    padding-right:5%;
+  } */
+  /* .new-div-data-1{
+      padding-top: 2%;
+      padding-left: 0%;
+  }
+  .new-div-data-2{
+      padding-top: 2%;
+      padding-left: 0%;
+  }
+  .new-div-data-3{
+      padding-top: 2%;
+      padding-right: 0%;
+      padding-bottom: 2%;
+  }
+  .new-div-data-4{
+  }
+  .new-div-data-5{
+      padding-top:2%;
+      padding-left:0%;
+  } */
+  .result-title {
+    font-size: 10px;
+  }
+  .read-more-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 3%;
+  }
+  .read-more-subc {
+    font-size: 10px;
+    color: #ff003d;
+    font-family: "Biotif-Book";
+  }
+  .read-more-desc {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .read-more-new1 {
+    font-size: 60px;
+    color: #ff003d;
+    text-decoration: 4px solid underline;
+    text-underline-position: from-font;
+    margin-bottom: 4%;
+    letter-spacing: -4px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .read-more-subc {
+    font-size: 10px;
+    color: #ff003d;
+    font-family: "Biotif-Book";
+  }
+  .the-footer-established {
+    width: 43%;
+  }
+  .read-more-desc {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .read-more-new1 {
+    font-size: 80px;
+    color: #ff003d;
+    text-decoration: 4px solid underline;
+    text-underline-position: from-font;
+    margin-bottom: 4%;
+    letter-spacing: -4px;
+  }
+  .question {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .result-title {
+    font-size: 10px;
+  }
+}
+.modal-content {
+  border: 6px solid #ff003d;
+  border-radius: 0px;
+}
+.ReactModal__Content {
+  border: 6px solid #ff003d !important;
+}
+.unlimited-access {
+  font-size: 20px;
+  text-align: center;
+}
+.form__group-1 {
+  position: relative;
+  margin-top: 10px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.form__field-1 {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+::placeholder {
+  color: white;
+}
+.inside-search-tag {
+  display: flex;
+  align-items: center;
+}
+.inside-search-tag > img {
+  height: 20px;
+}
+.slick-prev {
+  position: absolute !important;
+  left: 20px !important;
+  z-index: 1;
+}
+.slick-next {
+  position: absolute !important;
+  right: 20px !important;
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-slider:hover .image {
+  opacity: 10;
+  z-index: 1;
+}
+
+.container-slider:hover .middle {
+  opacity: 1;
+  z-index: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+}
+
+#EZDrawer__overlay {
+  opacity: 0 !important;
+}
+
+@media (max-width: 970px) {
+  .copyrights {
+    justify-content: center !important;
+    padding-bottom: 1%;
+  }
+  .the-footer-established {
+    position: relative;
+    bottom: 10px !important;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .the-footer-established > img {
+    width: 50%;
+  }
+}
+.marquee-container {
+  z-index: 0 !important;
+}
+a{
+  text-decoration: none;
+  color: inherit !important;
+}
+a:hover{
+  text-decoration: none !important;
+}

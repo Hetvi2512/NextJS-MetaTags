@@ -1,0 +1,1813 @@
+.a4-header{
+    padding-top: 62px;
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.a4-header-img{
+    width: 50% !important;
+}
+
+.a4-header-con{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a4-header-cat{
+    font-size: 25px;
+    line-height: 1;
+    color: #ff003d;
+    margin-bottom: 35px;
+}
+.a4-header-title{
+    padding-left: 12%;
+    padding-right:12% ;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -25;
+    margin-bottom: 35px;
+}
+.a4-header-auth{
+    font-size: 25px;
+    color: #ff003d;
+}
+.a4-header-img-title{
+    font-family: "Heldane_Text_Regular" !important;
+    margin-top: 5px;
+    line-height: 1.3;
+    margin-left: 5%;
+    color: gray;
+    font-size: 16px;
+}
+.a4-header-img-title > div > p{
+    font-family: "Heldane_Text_Regular" !important;
+    color: gray;
+    line-height: 1.3;
+    font-size: 16px;
+}
+.eff1-social{
+    position: relative;
+    top: 15%;
+    width: 100px;
+    justify-content: space-between;
+}
+.eff1-social-images{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 25px;
+}
+
+.a4-p1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.a4-p1-p1 h3{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 3%;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.a4-p2-p1 h3{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 3%;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.a4-p1-p1 h2{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 80px;
+    line-height: 0.9;
+    letter-spacing: -10;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff003d;
+}
+.a4-p1-p1 > p{
+    font-family: "Heldane_Text_Regular" !important;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.78;
+    letter-spacing: 0;
+    font-size: 24px;
+}
+.a4-p1-p1 >div >blockquote{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 65px;
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-style: italic;
+}
+.a4-p1-p1 >div >span{
+    display: block;
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 65px;
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-style: italic;
+}
+
+.a4-p1-p1 > ol{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.a4-p1-p1 > ol >li{
+    font-family: "Heldane_Text_Regular" !important;
+    font-size: 24px;
+}
+
+.a4-p1-p1 > ul{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.a4-p1-p1 > ul >li{
+    font-family: "Heldane_Text_Regular" !important;
+    font-size: 24px;
+}
+.a4-p1-p1 > ol >li > p{
+    margin: 0;
+    padding: 0;
+}
+.a4-p1-p1 > ul >li > p{
+    margin: 0;
+    padding: 0;
+}
+
+.a4-p2-p1 > ol{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.a4-p2-p1 > ol >li{
+    font-family: "Heldane_Text_Regular" !important;
+    font-size: 24px;
+}
+
+.a4-p2-p1 > ul{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.a4-p2-p1 > ul >li{
+    font-family: "Heldane_Text_Regular" !important;
+    font-size: 24px;
+}
+.a4-p2-p1 > ul >li > p{
+    margin: 0;
+    padding: 0;
+}
+.a4-p2-p1 > ol >li > p{
+    margin: 0;
+    padding: 0;
+}
+
+.a4-img{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.a4-img-1{
+    /* flex: 1 1 0; */
+    width: 47%;
+}
+.a4-img-2{
+    /* flex: 1 1 0; */
+    width: 47%;
+}
+
+.a4-img-1 img{
+    width: 100%;
+}
+.a4-img-2 img{
+    width: 100%;
+}
+.a4-full-img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.a4-full-img img{
+    width: 100%;
+}
+.a4-img-caption{
+    margin-top: 1%;
+ color: gray;
+}
+.a4-img-caption > div > p{
+    margin-top: 1%;
+ color: gray;
+ font-family: "Heldane_Text_Regular";
+ line-height: 1.3;
+}
+.a4-p2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.a4-p2-p1 h2{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 80px;
+    line-height: 0.9;
+    letter-spacing: -10;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff003d;
+}
+.a4-p2-p1 p{
+    font-family: "Heldane_Text_Regular" !important;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.78;
+    letter-spacing: 0;
+    font-size: 24px;
+}
+.a4-quote-main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.a4-p2-p1 >div >blockquote{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    font-size: 65px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.a4-p2-p1 >div >span{
+    display: block;
+    font-style: italic;
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 65px;
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.a4-full-img-caption{
+    margin-left: 3%;
+    margin-right: 10%;
+    font-family: "Heldane_Text_Regular" !important;
+    color: gray;
+}
+
+.a4-full-img-caption > div > p{
+    font-family: "Heldane_Text_Regular" !important;
+}
+.a4-border{
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid gray;
+}
+.a4-read-more{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.a4-read-more-heading{
+    font-size: 50px;
+    color: #ff003d;
+    width: max-content;
+    border-bottom: 2px solid #ff003d;
+    line-height: 1;
+    margin-bottom: 5%;
+}
+.a4-read-more-main{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:3%;
+}
+.a4-read-more-1{
+    flex: 1 1 0;
+}
+.a4-read-more-1-img{
+    width: 100%;
+}
+.a4-read-more-1-img img{
+    width: 100%;
+}
+.a4-read-more-1-cat{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 100;
+    color: #ff003d;
+}
+.a4-read-more-1-title{
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 1.06;
+    letter-spacing: 0;
+}
+.a4-read-more-1-auth{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #ff003d;
+}
+
+
+.img-h-90{
+    max-height: 90%;
+    object-fit: cover;
+}
+.a5-p1-h1{
+    font-size: 80px;
+    font-style: italic;
+    line-height: 0.9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    text-align: center;
+}
+.a5-1-img{
+    /* background-color: #ff003d; */
+    text-align: center;
+    padding-top: 60px;
+    /* padding-right: 25%; */
+    /* padding-left: 25%; */
+}
+.a5-1-img img{
+    width: 100%;
+    /* max-height: 95vh; */
+    object-fit: cover;
+}
+.a5-three-img{
+    display: flex;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+.a5-three-img-1{
+    flex:1 1 0;
+}
+.a5-three-img-1 img{
+    width: 100%;
+}
+.a5-p1-h1-bottom{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 3%;    */
+    margin-top: 3%;
+}
+.a5-p1-h1-auth{
+    font-size: 25px;
+    line-height: 1;
+    color: #ff003d;
+}
+.a5-p1-h1-date{
+    font-size: 25px;
+    line-height: 1;
+}
+.a5-p1-p1 >div >blockquote{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 65px;
+    line-height: 1.3;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.a5-p1-p1 >div >span{
+    display: block;
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 65px;
+    font-style: italic;
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: -10;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.a5-p1-p1 p{
+    font-family: "Heldane_Text_Regular" !important;
+    font-size: 24px;
+    line-height: 1.78;
+    margin-bottom:3% ;
+    margin-left:30%;
+    margin-right: 30%;
+}
+.a5-p1-p1 h3{
+    font-family: "Heldane_Text_Bold" !important;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom:1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+.a5-three-img-cap div p{
+    font-family: "Heldane_Text_Regular" !important;
+    color: gray;
+    line-height: 1.3;
+}
+.a5-three-img-cap{
+    font-family: "Heldane_Text_Regular" !important;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.3;
+    margin-bottom: 2.5%;
+    font-size: 16px;
+}
+.a5-p2-img-main{
+    display: flex;
+    background-color:#5000DF;
+}
+.a5-p2-cont{
+    width: 50%;
+}
+.a5-p2-img-img{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.a5-p2-img-img img{
+    width: 100%;
+}
+.a5-p2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.a5-p2-p2 h2{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-right:28%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 90px;
+    line-height: 0.9;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    color: #ff003d;
+    text-transform: uppercase;
+}
+.a5-p1-p1 h2{
+    font-family: "InterstateCompressed-Bold" !important;
+    font-style: italic;
+    margin-right:28%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 90px;
+    line-height: 0.9;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    color: #ff003d;
+    text-transform: uppercase;
+}
+
+
+.a5-p2-p2 p{
+    font-family: "Heldane_Text_Regular" !important;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    font-size: 24px;
+    line-height: 1.78;
+}
+.a5-p2-p2 div blockquote{
+    font-family: "InterstateCompressed-Bold" !important;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom:3%;
+    line-height: 1;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+.a5-p2-p2 div span{
+    display: block;
+    font-family: "InterstateCompressed-Bold" !important;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom:3%;
+    line-height: 1;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+.a5-p2-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.a5-cont-card3 h2{
+    color: inherit;
+    font-family: "InterstateCompressed-Bold" !important;
+    font-size: 90px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 0.9;
+    margin-bottom: 5%;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.a5-cont-card3 p{
+    font-family: "Heldane_Text_Regular" !important;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    font-size: 24px;
+    line-height: 1.78;
+    color: white;
+}
+.a5-card3-img > div{
+    margin-left: 0;
+    margin-right: 10%;
+}
+.image-text-caption > div > p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "Heldane_Text_Regular" !important;
+}
+.a6-img{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.a6-img-1{
+    width: 47%;
+}
+.a6-img-1 > img{
+    width: 100%;
+}
+.estd-full-format-2-mobile{
+    display: none;
+}
+
+.fullformat-2-card-3-mobile{
+    display: none !important;
+}
+@media (max-width: 480px){
+    .a4-header-img-div{
+        
+        height: 90vw !important;
+    
+    }
+    .estd-full-format-2-mobile{
+        margin-top: 100px;
+        display: block;
+    }
+    .estd-full-format-2-web{
+        display: none;
+    }
+    .fullformat-2-card-3-mobile{
+        display: flex !important;
+    }
+    .fullformat-2-card-3-web{
+        display: none !important;
+    }
+    .a4-header{
+        padding-top: 30px;
+        display: block;
+        border-bottom: none;
+    }
+    .a4-header-img{
+        width: 100% !important;
+        margin-bottom: 5%;
+    }
+    .a4-header-img-title{
+        display: none;
+    }
+    .a4-header-cat{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .a4-header-title{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .a4-header-auth{
+        font-size: 12px;
+    }
+    .eff1-social-images {
+        height: 20px;
+    }
+    .eff1-social{
+        position: relative;
+        top: 15%;
+        width: 80px;
+        justify-content: space-between;
+    }
+    .a4-header-con{
+        margin-bottom: 10%;
+    }
+    .a4-p1-p1 h3{
+        font-size: 26px;
+        line-height: 1.2;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a4-p2-p1 h3{
+        font-size: 26px;
+        line-height: 1.2;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a4-p1-p1 > p{
+        font-size: 18px;
+        line-height: 1.78;
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+    .a4-p1-p1 > ol{
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+    .a4-p1-p1 > ol >li{
+        font-size: 18px;
+        line-height: 1.78;
+    }
+    .a4-p1-p1 > ul{
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .a4-p1-p1 > ul >li{
+        font-size: 18px;
+        line-height: 1.78;
+    }
+    .a4-p2-p1 > ol{
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+    .a4-p2-p1 > ul{
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+    .a4-img{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: block;
+    }
+    .a4-img-1{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .a4-img-2{
+        width: 100%;
+    }
+    .a4-img-caption{
+        font-size: 12px;
+        line-height: 1;
+    }
+    .a4-p2-p1 h2{
+        font-size: 40px;
+        padding-right: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+    .a4-p1-p1 h2{
+        font-size: 40px;
+        padding-right: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+    .a4-p2-p1 p{
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a4-quote-main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a4-p2-p1 >div >blockquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .a4-p2-p1 >div >span{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .a4-p1-p1 >div >blockquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .a4-p1-p1 >div >span{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .a4-full-img-caption{
+        font-size: 12px;
+    }
+    .a4-read-more-heading{
+        font-size: 40px;
+    }
+    .a4-read-more-main{
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .a4-read-more-1{
+        margin-bottom: 10%;
+    }
+    .a4-read-more-1-cat{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .a4-read-more-1-title{
+        margin-top: 7px;
+        font-size: 17px;
+    }
+    .a4-read-more-1-auth{
+        margin-top: 7px;
+        font-size: 12px;
+    }
+
+    .a5-1-img{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .a5-p1-h1{
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a5-p1-h1-bottom {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a5-p1{
+        margin-top: 20px;
+    }
+    .a5-p1-h1-auth{
+        font-size: 12px;
+    }
+    .a5-p1-h1-date{
+        font-size: 12px;
+    }
+    .a5-p1-p1 p{
+        margin-left:5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+.a5-p1-p1 h3{
+    font-size: 18px;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+    .a5-p1-p1 p{
+        font-size: 18px;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 28px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 28px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .a5-p2-p2 h2{
+        font-size: 40px;
+        padding-right: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .a5-p1-p1 h2{
+        font-size: 40px;
+        padding-right: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+    .a5-p2-p2 p{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+    }
+    .a5-p2-p2 div blockquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+    .a5-p2-p2 div span{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+
+    .a5-three-img{
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a5-three-img-1{
+        margin-bottom: 5%;
+    }
+    .a5-three-img-cap{
+        font-size: 14px;
+        line-height: 1;
+    }
+    .a5-three-img-cap div p{
+        font-size: 12px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .a5-p2-img-main{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .a5-p2-cont{
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .a5-p2-img-img{
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+
+    .a5-cont-card3 h2{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 40px;
+    }
+    .a5-p2-cont{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .a5-cont-card3 p{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+    }
+    .image-text-caption > div > p {
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .a5-card3-img > div{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .a6-img{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: block;
+    }
+    .a6-img-1{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .a6-img-1 > img{
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .a4-header-img{
+        width: 50% !important;
+    }
+    .a4-header{
+        padding-top: 30px;
+    }
+    .a4-header-cat{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .a4-header-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .a4-header-auth{
+        font-size: 12px;
+    }
+    .eff1-social-images {
+        height: 20px;
+    }
+    .a4-header-img-title{
+        font-size: 16px;
+        margin-right: 55%;
+    }
+    .a4-header-img-title > div > p{
+        font-size: 16px;
+    }
+
+
+    .a4-p1-p1 h3{
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a4-p2-p1 h3{
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a4-p1-p1 > p{
+        font-size: 18px;
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .a4-p1-p1 > ol{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .a4-p1-p1 > ol >li{
+        font-size: 18px;
+    }
+    .a4-p1-p1 > ul{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    .a4-p1-p1 > ul >li{
+        font-size: 18px;
+    }
+    .a4-p2-p1 > ol{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .a4-p2-p1 > ul{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .a4-img{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: block;
+    }
+    .a4-img-1{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .a4-img-2{
+        width: 100%;
+    }
+    .a4-img-caption{
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .a4-p2-p1 h2{
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .a4-p1-p1 h2{
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .a4-p2-p1 p{
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a4-quote-main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .a4-p2-p1 >div >blockquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+    .a4-p2-p1 >div >span{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 25px;
+    }
+    .a4-p1-p1 >div >blockquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+    .a4-p1-p1 >div >span{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+    .a4-full-img-caption{
+        font-size: 12px;
+    }
+    .a4-read-more-heading{
+        font-size: 30px;
+    }
+
+    .a4-read-more-main{
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .a4-read-more-1{
+        margin-bottom: 10%;
+    }
+    .a4-read-more-1-cat{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .a4-read-more-1-title{
+        margin-top: 7px;
+        font-size: 17px;
+    }
+    .a4-read-more-1-auth{
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    .eff1-social{
+        width: 80px;
+    }
+    .a5-1-img{
+        padding-top: 30px;
+    }
+
+    .a5-p1-h1{
+        font-size: 40px;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    .a5-p1-h1-bottom {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p1-h1-auth{
+        font-size: 12px;
+    }
+    .a5-p1-h1-date{
+        font-size: 12px;
+    }
+    .a5-p1-p1 p{
+        margin-left:10%;
+        margin-right: 10%;
+        font-size: 18px;
+    }
+.a5-p1-p1 h3{
+    margin-left:10%;
+        margin-right: 10%;
+    font-size: 18px;
+}
+    .a5-p2-p2 h2{
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .a5-p1-p1 h2{
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .a5-p2-p2 p{
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 28   px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p2-p2 div blockquote{
+        font-size: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p2-p2 div span{
+        font-size: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .a5-p2-img-main{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .a5-p2-cont{
+        width: 100%;
+        padding-right: 25%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+    }
+    .a5-p2-img-img{
+        width: 100%;
+        padding-right: 25%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+    }
+
+    .a5-cont-card3 h2{
+        font-size: 35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-style: italic;
+        text-align: center;
+    }
+    .a5-cont-card3 p{
+        font-size: 14px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-card3-img > div{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .image-text-caption > div > p {
+        font-size: 12px;
+    }
+    .a5-three-img-cap{
+        font-size: 12px;
+    }
+    .a6-img{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        display: block;
+    }
+    .a6-img-1{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .a6-img-1 > img{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .eff1-social{
+        width: 80px;
+    }
+    .a4-header{
+        padding-top: 40px;
+    }
+    .a4-header-cat{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .a4-header-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .a4-header-auth{
+        font-size: 15px;
+    }
+    .eff1-social-images {
+        height: 20px;
+    }
+    .a4-p1-p1 h3{
+        font-size: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p2-p1 h3{
+        font-size: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p1-p1 > p{
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .a4-p1-p1 > ol >li{
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p1-p1 > ul >li{
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p2-p1 h2{
+        font-size: 50px;
+        margin-left: 15%;
+        margin-right:15%;
+        margin-top: 5%;
+    }
+    .a4-p1-p1 h2{
+        font-size: 50px;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right:15%;
+    }
+    .a4-img-caption > div > p {
+     font-size: 14px;
+    }
+    .a4-p2-p1 p{
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p2-p1 >div >blockquote{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p2-p1 >div >span{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p1-p1 >div >blockquote{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a4-p1-p1 >div >span{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .a4-read-more-heading{
+        font-size: 35px;
+    }
+    .a4-read-more-1-cat{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .a4-read-more-1-title{
+        margin-top: 7px;
+        font-size: 14px;
+    }
+    .a4-read-more-1-auth{
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    .a4-header-img-title{
+        font-size: 16px;
+        margin-right: 55%;
+    }
+    .a4-header-img-title > div > p{
+        font-size: 16px;
+    }
+
+    .a5-1-img{
+        padding-top: 35px;
+    }
+    .a5-p1-h1{
+        font-size: 45px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a5-p1-h1-bottom {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p1-h1-auth{
+        font-size: 14px;
+    }
+    .a5-p1-h1-date{
+        font-size: 14px;
+    }
+    .a5-three-img-cap div p {
+     font-size: 12px;
+    }
+    .a5-p1-p1 p {
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+.a5-p1-p1 h3{
+    font-size: 18px;
+    margin-left: 15%;
+        margin-right: 15%;
+}
+    .a5-p2-p2 h2{
+        font-size: 40px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p1-p1 h2{
+        font-size: 40px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p2-p2 p{
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p2-p2 div blockquote{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .a5-p2-p2 div span{
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .a5-p2-img-main{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .a5-cont-card3 h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .a5-cont-card3 p{
+        font-size: 16px;
+    }
+    .a5-card3-img > div{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .image-text-caption > div > p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    .eff1-social{
+        width: 80px;
+    }
+    .a4-header{
+        padding-top: 45px;
+    }
+    .a4-header-cat{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .a4-header-title{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .a4-header-auth{
+        font-size: 18px;
+    }
+    .a4-p1-p1 h3{
+        font-size: 30px;
+    }
+    .a4-p2-p1 h3{
+        font-size: 30px;
+    }
+    .a4-p1-p1 > p{
+        font-size: 18px;
+    }
+
+    .a4-p1-p1 > ol >li{
+        font-size: 18px;
+    }
+    .a4-p1-p1 > ul >li{
+        font-size: 18px;
+    }
+    .a4-p2-p1 h2{
+        font-size: 50px;
+    }
+    .a4-p1-p1 h2{
+        font-size: 50px;
+    }
+    .a4-p2-p1 p{
+        font-size: 18px;
+    }
+
+    .a4-p2-p1 >div >blockquote{
+        font-size: 30px;
+    }
+    .a4-p2-p1 >div >span{
+        font-size: 30px;
+    }
+    .a4-p1-p1 >div >blockquote{
+        font-size: 30px;
+    }
+    .a4-p1-p1 >div >span{
+        font-size: 30px;
+    }
+    .a4-read-more-heading{
+        font-size: 40px;
+    }
+    .a4-read-more-1-cat{
+        font-size: 14px;
+    }
+    .a4-read-more-1-title{
+        font-size: 18px;
+    }
+    .a4-read-more-1-auth{
+        font-size: 16px;
+    }
+    .a4-header-img-title{
+        font-size: 16px;
+        margin-right: 55%;
+    }
+    .a4-header-img-title > div > p{
+        font-size: 16px;
+    }
+
+
+    .a5-1-img{
+        padding-top: 40px;
+    }
+    .a5-p1-h1{
+        font-size: 45px;
+    }
+    .a5-p1-h1-auth{
+        font-size: 16px;
+    }
+    .a5-p1-h1-date{
+        font-size: 16px;
+    }
+    .eff1-social-images{
+        height: 20px;
+    }
+    .a5-p1-p1 p  {
+        font-size: 18px;
+    }
+
+.a5-p1-p1 h3{
+    font-size: 18px;
+}
+    .a5-p2-p2 h2{
+        font-size: 50px;
+    }
+    .a5-p1-p1 h2{
+        font-size: 50px;
+    }
+    .a5-p2-p2 p{
+        font-size: 18px;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 30px;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 30px;
+
+    }
+    .a5-p2-p2 div blockquote{
+        font-size: 30px;
+    }
+    .a5-p2-p2 div span{
+        font-size: 30px;
+    }
+
+    .a5-p2-img-main{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .a5-cont-card3 h2{
+        font-size: 50px;
+    }
+    .a5-cont-card3 p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1440px){
+    .eff1-social{
+        width: 100px;
+    }
+    .a4-header{
+        padding-top: 47px;
+    }
+    .a4-header-cat{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .a4-header-title{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .a4-header-auth{
+        font-size: 20px;
+    }
+    .a4-p1-p1 h3{
+        font-size: 40px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .a4-p2-p1 h3{
+        font-size: 40px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .a4-p1-p1 > p{
+        font-size: 20px;
+    }
+
+    .a4-p1-p1 > ol >li{
+        font-size: 20px;
+    }
+    .a4-p1-p1 > ul >li{
+        font-size: 20px;
+    }
+    .a4-p2-p1 h2{
+        font-size: 55px;
+    }
+    .a4-p1-p1 h2{
+        font-size: 55px;
+    }
+    .a4-p2-p1 p{
+        font-size: 20px;
+    }
+    .a4-p2-p1 >div >blockquote{
+        font-size: 35px;
+    }
+    .a4-p2-p1 >div >span{
+        font-size: 35px;
+    }
+    .a4-p1-p1 >div >blockquote{
+        font-size: 35px;
+    }
+    .a4-p1-p1 >div >span{
+        font-size: 35px;
+    }
+    .a4-read-more-heading{
+        font-size: 45px;
+    }
+    .a4-read-more-1-cat{
+        font-size: 16px;
+    }
+    .a4-read-more-1-title{
+        font-size: 22px;
+    }
+    .a4-read-more-1-auth{
+        font-size: 20px;
+    }
+    .a4-header-img-title{
+        font-size: 16px;
+        margin-right: 55%;
+    }
+    .a4-header-img-title > div > p{
+        font-size: 16px;
+    }
+
+
+    .a5-1-img{
+        padding-top: 45px;
+    }
+    .a5-p1-h1{
+        font-size: 55px;
+    }
+    .a5-p1-h1-auth{
+        font-size: 20px;
+    }
+    .a5-p1-h1-date{
+        font-size: 20px;
+    }
+    .a5-p1-p1 p {
+        font-size: 20px;
+    }
+
+.a5-p1-p1 h3{
+    font-size: 24px;
+}
+    .a5-p2-p2 h2{
+        font-size: 55px;
+    }
+    .a5-p1-p1 h2{
+        font-size: 55px;
+    }
+    .a5-p2-p2 p{
+        font-size: 20px;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 35px;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 35px;
+
+    }
+    .a5-p2-p2 div blockquote{
+        font-size: 35px;
+    }
+    .a5-p2-p2 div span{
+        font-size: 35px;
+    }
+
+    .a5-cont-card3 h2{
+        font-size: 55px;
+    }
+    .a5-cont-card3 p{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1750px){
+    .eff1-social{
+        width: 100px;
+    }
+    .a4-header{
+        padding-top: 52px;
+    }
+    .a4-header-cat{
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    .a4-header-title{
+        padding-left: 12%;
+        padding-right:12% ;
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+    .a4-header-auth{
+        font-size: 23px;
+        color: #ff003d;
+    }
+    .a4-p1-p1 h3{
+        font-size: 45px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .a4-p2-p1 h3{
+        font-size: 45px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .a4-p1-p1 > p{
+        font-size: 22px;
+    }
+
+    .a4-p1-p1 > ol >li{
+        font-size: 22px;
+    }
+    .a4-p1-p1 > ul >li{
+        font-size: 22px;
+    }
+    .a4-p1-p1 h2{
+        font-size: 60px;
+    }
+    .a4-p2-p1 h2{
+        font-size: 60px;
+    }
+    .a4-p2-p1 p{
+        font-size: 22px;
+    }
+    .a4-p2-p1 >div >blockquote{
+        font-size: 45px;
+    }
+    .a4-p2-p1 >div >span{
+        font-size: 45px;
+    }
+    .a4-p2-p1 >div >blockquote{
+        font-size: 45px;
+    }
+    .a4-p2-p1 >div >span{
+        font-size: 45px;
+    }
+
+    .a4-read-more-heading{
+        font-size: 50px;
+    }
+    .a4-read-more-1-cat{
+        font-size: 16px;
+    }
+    .a4-read-more-1-title{
+        font-size: 25px;
+    }
+    .a4-read-more-1-auth{
+        font-size: 20px;
+    }
+    .a4-header-img-title{
+        font-size: 16px;
+        margin-right: 55%;
+    }
+    .a4-header-img-title > div > p{
+        font-size: 16px;
+    }
+
+    .a5-1-img{
+        padding-top: 50px;
+    }
+    .a5-p1-h1{
+        font-size: 65px;
+    }
+    .a5-p1-h1-auth{
+        font-size: 20px;
+    }
+    .a5-p1-h1-date{
+        font-size: 20px;
+    }
+    .a5-p1-p1 p {
+        font-size: 24px;
+    }
+
+.a5-p1-p1 h3{
+    font-size: 24px;
+}
+    .a5-p2-p2 h2{
+        font-size: 60px;
+    }
+    .a5-p1-p1 h2{
+        font-size: 60px;
+    }
+    .a5-p2-p2 p{
+        font-size: 22px;
+    }
+    .a5-p1-p1 >div >blockquote{
+        font-size: 45px;
+    }
+    .a5-p1-p1 >div >span{
+        font-size: 45px;
+
+    }
+    .a5-p2-p2 div blockquote{
+        font-size: 45px;
+    }
+    .a5-p2-p2 div span{
+        font-size: 45px;
+    }
+
+    .a5-cont-card3 h2{
+        font-size: 60px;
+    }
+    .a5-cont-card3 p{
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width:769px){
+    .a4-read-more-1-img img{
+        height: 80vw;
+        object-fit: cover;
+    }
+}
+
+@media(min-width:769px){
+    .a4-read-more-1-img img{
+        height: calc(calc(80vw - 9vh)/3);
+        object-fit: cover;
+    }
+    }

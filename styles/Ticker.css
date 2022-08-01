@@ -1,0 +1,158 @@
+.marquee{
+    background-color:
+    #ff003d;
+    height: auto;
+}
+.ticker-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marque-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    margin:0 10px;
+    margin-left: 80px;
+}
+.ticker-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 67.5px; */
+    font-size: 25px;
+    margin: 0 10px;
+}
+.read-more{
+    margin: 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    border-radius:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.read-more a{
+    text-decoration: none;
+    color: white;
+}
+.read-more a:hover{
+    text-decoration: none;
+    color: white;
+}
+/*
+.ticker-main-main{
+    margin-top: 20px;
+} */
+
+@media (max-width: 575px){
+    .marquee{
+        height: auto;
+    }
+    .marque-heading{
+        font-size: 30px;
+        margin:0 10px;
+        margin-left: 80px;
+    }
+    .ticker-content{
+        text-align: center;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .read-more a{
+        padding: 2px;
+       }
+    .read-more a{
+     font-size: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .marquee{
+        height: auto;
+    }
+    .marque-heading{
+        font-size: 30px;
+        margin:0 10px;
+        margin-left: 80px;
+    }
+    .ticker-content{
+        text-align: center;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .read-more a{
+        padding: 2px;
+       }
+    .read-more a{
+     font-size: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .marquee{
+        height: auto;
+    }
+    .marque-heading{
+        font-size: 30px;
+        margin:0 10px;
+        margin-left: 80px;
+    }
+    .ticker-content{
+        text-align: center;
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    .read-more a{
+        padding: 2px;
+       }
+    .read-more a{
+     font-size: 10px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1600px){
+    .marquee{
+        height: auto;
+    }
+    .marque-heading{
+        font-size: 35px;
+        margin:0 10px;
+        margin-left: 80px;
+    }
+    .ticker-content{
+        text-align: center;
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    .read-more a{
+        padding: 2px;
+       }
+    .read-more a{
+     font-size: 13px;
+    }
+}
+
+@media (min-width: 1601px){
+    .marquee{
+        height: auto;
+    }
+    .marque-heading{
+        font-size: 40px;
+        margin:0 10px;
+        margin-left: 80px;
+    }
+    .ticker-content{
+        text-align: center;
+        font-size: 30px;
+        margin: 0 10px;
+    }
+    .read-more a{
+        padding: 2px;
+       }
+    .read-more a{
+     font-size: 16px;
+    }
+}

@@ -1,0 +1,7 @@
+.insideSearchTag {
+    display: flex;
+    align-items: center;
+  }
+  .insideSearchTag> img {
+    height: 20px;
+  }
