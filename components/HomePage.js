@@ -17,7 +17,7 @@ function HomePage({ resp, combinedData1, combinedData2 }) {
                 className={`common-main-${index + 1} d-flex  flex-column`}
                 key={a.id}
               >
-                <Link href={`/${a["story"]["slug"]}`} prefetch={false}>
+                <Link href={`/${a["story"]["slug"]}`} prefetch={false}  passHref={true}>
                   <div style={{ cursor: "pointer" }}>
                     <img
                       src={`${imgBaseURL}${a["story"]["hero-image-s3-key"]}`}
@@ -30,6 +30,7 @@ function HomePage({ resp, combinedData1, combinedData2 }) {
                         subCatPageUrl[a["story"]["sections"][0]["slug"]].url
                       }
                       prefetch={false}
+                      passHref={true}
                     >
                       <div className="Biotif-Book common-category">
                         {a["story"]["sections"][0]["name"].toUpperCase()}
