@@ -60,7 +60,7 @@ function HomePage({ resp, combinedData1, combinedData2 }) {
       </div>
       <TickerComp resp={combinedData1["breaking-news"]} />
       <div style={{ height: "500px" }}>
-        <h3>HEIGHT</h3>
+        <h3>HEIGHT H3</h3>
       </div>
     </>
   );
