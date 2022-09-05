@@ -16,7 +16,11 @@ export default function Home({ stories, combinedData1, combinedData2 }) {
           name="description"
           content="The Established is a new digital platform at the forefront of a modern landscape, shaped by a community of conscious, authentic and very well-informed, progressive consumers."
         />
-        <link rel="icon" href="/favicon.ico" />
+     <meta name="image" content="/estd-favicon.png"/>
+       <meta property="image:type" content="image/png" />
+        <meta property="image:width" content="400" />
+        <meta property="image:height" content="300" />
+        <link rel="icon" href="/estd-favicon.png" />
       </Head>
       <Header />
       <HomePage resp={stories} combinedData1={combinedData1} combinedData2={combinedData2} />
