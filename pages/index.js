@@ -19,17 +19,17 @@ export default function Home({ stories, combinedData1, combinedData2 }) {
         <meta property="image:type" content="image/png" />
         <meta property="image:width" content="400" />
         <meta property="image:height" content="300" />
-        <meta property="og:image"  itemprop="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
+        <meta property="og:image"  itemProp="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:type" content="website" />
 
-        <meta property="twitter:image" itemprop="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
+        <meta property="twitter:image" itemProp="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
         <meta property="twitter:image:type" content="image/png" />
         <meta property="twitter:image:width" content="400" />
         <meta property="twitter:image:height" content="300" />
-        <meta name="image" itemprop="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
+        <meta name="image" itemProp="image" content="https://gumlet.assettype.com/theestablished/2022-08/4535825e-f3b5-45b9-b9e0-86e9e28797cc/Lead_Vedant_Lamba.jpg" />
         <link rel="icon" href="/estd.png" />
       </Head>
       <Header />
