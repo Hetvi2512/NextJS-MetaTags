@@ -16,21 +16,21 @@ export default function Home({ stories, combinedData1, combinedData2 }) {
           name="description"
           content="The Established is a new digital platform at the forefront of a modern landscape, shaped by a community of conscious, authentic and very well-informed, progressive consumers."
         />
-        <meta name="image" content="../estd.png" />
+        <meta name="image" content="/estd.png" />
         <meta property="image:type" content="image/png" />
         <meta property="image:width" content="400" />
         <meta property="image:height" content="300" />
-        
-        <meta property="og:image" content="../estd.png" />
+
+        <meta property="og:image" content="/estd.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
 
-        <meta property="twitter:image" content="../estd.png" />
+        <meta property="twitter:image" content="/estd.png" />
         <meta property="twitter:image:type" content="image/png" />
         <meta property="twitter:image:width" content="400" />
         <meta property="twitter:image:height" content="300" />
-        <link rel="icon" href="/estd-favicon.png" />
+        <link rel="icon" href="/estd.png" />
       </Head>
       <Header />
       <HomePage
