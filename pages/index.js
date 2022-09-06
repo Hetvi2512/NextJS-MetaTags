@@ -16,23 +16,28 @@ export default function Home({ stories, combinedData1, combinedData2 }) {
           name="description"
           content="The Established is a new digital platform at the forefront of a modern landscape, shaped by a community of conscious, authentic and very well-informed, progressive consumers."
         />
-     <meta name="image" content="https://m.media-amazon.com/images/M/MV5BZDJjOTE0N2EtMmRlZS00NzU0LWE0ZWQtM2Q3MWMxNjcwZjBhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg"/>
-       <meta property="image:type" content="image/png" />
+        <meta name="image" content="../estd.png" />
+        <meta property="image:type" content="image/png" />
         <meta property="image:width" content="400" />
         <meta property="image:height" content="300" />
-           <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BZDJjOTE0N2EtMmRlZS00NzU0LWE0ZWQtM2Q3MWMxNjcwZjBhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg" />
+        
+        <meta property="og:image" content="../estd.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
 
-        <meta property="twitter:image" content="https://m.media-amazon.com/images/M/MV5BZDJjOTE0N2EtMmRlZS00NzU0LWE0ZWQtM2Q3MWMxNjcwZjBhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg" />
+        <meta property="twitter:image" content="../estd.png" />
         <meta property="twitter:image:type" content="image/png" />
         <meta property="twitter:image:width" content="400" />
         <meta property="twitter:image:height" content="300" />
         <link rel="icon" href="/estd-favicon.png" />
       </Head>
       <Header />
-      <HomePage resp={stories} combinedData1={combinedData1} combinedData2={combinedData2} />
+      <HomePage
+        resp={stories}
+        combinedData1={combinedData1}
+        combinedData2={combinedData2}
+      />
     </div>
   );
 }
@@ -116,7 +121,7 @@ export async function getStaticProps() {
     );
     const data = await response.json();
     Object.entries(data?.results).map((col) => {
-      combinedState2[col[0]] = col[1].items
+      combinedState2[col[0]] = col[1].items;
     });
     return combinedState2;
   };
